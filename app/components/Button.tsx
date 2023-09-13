@@ -34,7 +34,7 @@ const Button = ({type,fullWidth,children,onClick,secondary,danger,disabled}:Butt
     fullWidth && "w-full",
     secondary ? "text-gray-900": "text-white",
     danger && "bg-rose-500 hover:bg-rose-600 focus-visible:outline-rose-600",
-    !secondary && !danger && "bg-sky-500 hover:bg-sky-600 focus-visible:outline-sky-600")}>{children}</button>
+    !secondary && !danger && "bg-green-400 hover:bg-green-500 focus-visible:outline-green-500")}>{children}</button>
   )
 }
 
