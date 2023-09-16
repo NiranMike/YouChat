@@ -7,8 +7,8 @@ import AuthContext from "./context/AuthContext"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Messenger Clone',
-  description: 'Messenger Clone',
+  title: 'YouChat',
+  description: 'Messaging Application',
 }
 
 export default function RootLayout({
