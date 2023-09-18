@@ -41,7 +41,7 @@ const Input = ({label,id,type,required,register,errors,disabled}:InputProps) => 
                 placeholder:text-gray-400
                 focus:ring-2
                 focus:ring-inset
-                focus:ring-sky-600
+                focus:ring-green-500
                 sm:text-sm
                `,errors[id] && "focus:ring-rose-500",disabled && "opacity-50 cursor-default")}
               />
